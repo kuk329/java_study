@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class Sol4 {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution1 sol = new Solution1();
         int[] arr = {1, 2, 3, 100, 99, 98};
         int[] solution = sol.solution(arr, 3);
         System.out.println(Arrays.toString(solution));
@@ -17,7 +17,7 @@ public class Sol4 {
 
 }
 
-class Solution{
+class Solution1{
     public int[] solution(int[] arr, int k) {
         return Arrays.stream(arr).map(operand -> k%2==0? operand+k : operand*k).toArray();
     }
