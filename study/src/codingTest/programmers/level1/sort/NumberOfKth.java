@@ -3,7 +3,7 @@ package codingTest.programmers.level1.sort;
 import java.util.Arrays;
 
 /**
- * Lv.2 K번째 수
+ * Lv.1 K번째 수
  */
 public class NumberOfKth {
     public static void main(String[] args) {
