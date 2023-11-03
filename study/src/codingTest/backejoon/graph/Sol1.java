@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class Sol1 {
 
-    static ArrayList<Integer>[] a; // 간선을9 저장할 리스트
+    static ArrayList<Integer>[] a; // 간선을 저장할 리스트
     static boolean[] c; // 방문 여부를 저장할 배열
 
     public static void dfs(int x) {
