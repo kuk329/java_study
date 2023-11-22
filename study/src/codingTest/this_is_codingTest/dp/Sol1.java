@@ -1,4 +1,4 @@
-package codingTest.this_is_codingTest.sort;
+package codingTest.this_is_codingTest.dp;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
