@@ -33,7 +33,7 @@ public class Sol1 {
         for(int i=0; i<n; i++){ //2 차원 얼음틀 정보 입력
             String str = sc.nextLine(); // 1행 한줄로 입력
             for(int j=0; j<m; j++){
-                graph[i][j] = str.charAt(0)-'0'; // 정수로 변환해서 저장
+                graph[i][j] = str.charAt(j)-'0'; // 정수로 변환해서 저장
             }
         }
         // 모든 위치에 음료수 채우기
