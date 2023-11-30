@@ -14,7 +14,6 @@ public class Sol2 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int x = 0;
-        ArrayList<Integer> arr = new ArrayList<>();
         PriorityQueue<Integer> queue = new PriorityQueue<>((a,b)->{
             int abs1 = Math.abs(a);
             int abs2 = Math.abs(b);
@@ -35,9 +34,7 @@ public class Sol2 {
                     System.out.println(out);
                 }
 
-
             } else {
-                arr.add(x);
                 queue.add(x);
             }
         }
