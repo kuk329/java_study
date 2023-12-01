@@ -18,7 +18,7 @@ public class Sol2 {
             int abs1 = Math.abs(a);
             int abs2 = Math.abs(b);
 
-            if(abs1==abs2) return a>b? 1:-1; // 절대값이 같은 경우는 더 작은 수를 return
+            if(abs1==abs2) return a>b? 1:-1;
             return abs1-abs2;
 
         });
